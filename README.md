@@ -26,7 +26,7 @@ As a .NET developer, when you build a container image for your [Azure Functions]
 
     ```bash
     pushd ./FunctionAppWithDockerfile
-    func new -n HttpExampleTrigger -t HttpTrigger --a anonymous
+    func new -n HttpExampleTrigger -t HttpTrigger -a anonymous
     ```
 
 1. Open `HttpExampleTrigger.cs` and modify the line.
@@ -77,7 +77,7 @@ As a .NET developer, when you build a container image for your [Azure Functions]
 
     ```bash
     pushd ./FunctionAppWithMSBuild
-    func new -n HttpExampleTrigger -t HttpTrigger --a anonymous
+    func new -n HttpExampleTrigger -t HttpTrigger -a anonymous
     ```
 
 1. Open `HttpExampleTrigger.cs` and modify the line.
