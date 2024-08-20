@@ -1,12 +1,12 @@
 # MSBuild for Azure Functions on Containers
 
-As a .NET developer, when you build a container image for your Azure Functions app, you can use the `Dockerfile` to define the container image. However, you can also use the `dotnet publish` command to build and publish the container image without a `Dockerfile`. This repository provides sample .NET function apps using container images with `Dockerfile` and with `dotnet publish`.
+As a .NET developer, when you build a container image for your [Azure Functions](https://learn.microsoft.com/azure/azure-functions/functions-overview?WT.mc_id=dotnet-147942-juyoo) app, you can use the `Dockerfile` to define the container image. However, you can also use the `dotnet publish` command to build and publish the container image without a `Dockerfile`. This repository provides sample .NET function apps using container images with `Dockerfile` and with `dotnet publish`.
 
 ## Prerequisites
 
-- [.NET SDK 8.0+](https://dotnet.microsoft.com/download/dotnet/8.0?WT.mc_id=dotnet-144884-juyoo) with [.NET Aspire workload](https://learn.microsoft.com/dotnet/aspire/fundamentals/setup-tooling?WT.mc_id=dotnet-144884-juyoo)
-- [Visual Studio](https://visualstudio.microsoft.com/?WT.mc_id=dotnet-144884-juyoo) or [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=dotnet-144884-juyoo) + [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) + [Azure Functions](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions?WT.mc_id=dotnet-144884-juyoo)
-- [Azure Functions Core Tools](https://learn.microsoft.com/azure/azure-functions/functions-run-local?WT.mc_id=dotnet-144884-juyoo)
+- [.NET SDK 8.0+](https://dotnet.microsoft.com/download/dotnet/8.0?WT.mc_id=dotnet-147942-juyoo) with [.NET Aspire workload](https://learn.microsoft.com/dotnet/aspire/fundamentals/setup-tooling?WT.mc_id=dotnet-147942-juyoo)
+- [Visual Studio](https://visualstudio.microsoft.com/?WT.mc_id=dotnet-147942-juyoo) or [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=dotnet-147942-juyoo) + [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) + [Azure Functions](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions?WT.mc_id=dotnet-147942-juyoo)
+- [Azure Functions Core Tools](https://learn.microsoft.com/azure/azure-functions/functions-run-local?WT.mc_id=dotnet-147942-juyoo)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
 ## Getting Started
